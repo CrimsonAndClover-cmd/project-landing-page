@@ -1,4 +1,38 @@
+* {
+    font-family: roboto;
+}
+
 img {
     width: 100px;
     height: 100px;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    padding: 20px;
+}
+.header-logo {
+    color: #f9faf8;
+    margin-right: auto;
+    font-size: 24px;
+}
+.right-links {
+    color: #e5e7eb;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+.apple-introduction {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.apple-main-title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
 }
