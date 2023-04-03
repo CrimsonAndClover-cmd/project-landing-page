@@ -46,4 +46,16 @@ img {
 .button {
     flex-grow: 0;
     align-self: flex-start;
+    background-color: #3882f6;
+}
+.info-container-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+}
+.info-container {
+    display: flex;
 }
