@@ -96,3 +96,17 @@ img {
     font-size: 18px;
     margin-right: 40px;
 }
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.action-container {
+    background-color: #3882f6;
+    padding: 30px;
+    width: 650px;
+    display: flex;
+}
+.sign-up-text {
+    color: white;
+}
