@@ -60,7 +60,39 @@ img {
     display: flex;
     justify-content: center;
     gap: 20px;
+    height: 245px;
 }
 .info {
     width: 150px;
+}
+.text {
+    font-size: 18px;
+    font: #f9faf8;
+}
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 20px;
+    height: 285px;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 600px;
+}
+.quote-author {
+    background-color: #e5e7eb;
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 18px;
+    margin-right: 40px;
 }
