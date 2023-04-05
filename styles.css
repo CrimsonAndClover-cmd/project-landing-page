@@ -47,6 +47,8 @@ img {
     flex-grow: 0;
     align-self: flex-start;
     background-color: #3882f6;
+    padding: 5px;
+    color: white;
 }
 .info-container-title {
     text-align: center;
@@ -103,6 +105,7 @@ img {
 }
 .action-container {
     background-color: #3882f6;
+    border-radius: 25px;
     padding: 30px;
     width: 500px;
     display: flex;
@@ -115,4 +118,14 @@ img {
     background-color: #3882f6;
     align-self: center;
     padding: 40px;
+    border-radius: 25px;
+    margin-left: -45px;
+}
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
